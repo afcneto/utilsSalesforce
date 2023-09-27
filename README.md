@@ -9,5 +9,11 @@ O Salesforce é uma das principais plataformas de CRM do mundo, e o desenvolvime
 ### Scripts Úteis
 Oferecemos uma variedade de scripts que podem ser usados para resolver problemas do dia a dia.
 
+### Contribuição
+Este é um projeto de código aberto e incentivamos contribuições da comunidade. Se você tiver uma ideia para uma nova ferramenta, script ou recurso, sinta-se à vontade para abrir uma solicitação de pull request.
+> [!IMPORTANT]
+> Antes de contribuir, certifique-se de seguir as diretrizes de codificação.
+
+
 > [!NOTE]
 > Espero que este repositório seja útil para você como desenvolvedor Salesforce.
