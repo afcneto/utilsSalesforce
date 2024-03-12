@@ -1,0 +1,22 @@
+<template>
+    <lightning-card  title="Lazy loading">
+        
+        <lightning-button variant="brand" 
+                label="Carregar dados" 
+                title="Carregar dados" 
+                onclick={loadData} 
+                class="slds-m-left_x-small"
+                slot="actions">
+        </lightning-button>
+        <div style="height:500px" class="custom-box slds-box slds-m-around_medium slds-text-align_right">
+            <lightning-datatable key-field="Id"
+                    data={accounts}
+                    columns={columns}
+                    enable-infinite-loading
+                    onloadmore={loadMoreData}
+                    hide-checkbox-column="true"
+                    show-row-number-column="true">
+            </lightning-datatable>
+        </div>
+    </lightning-card>    
+</template>
