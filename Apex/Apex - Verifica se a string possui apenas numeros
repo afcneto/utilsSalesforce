@@ -3,3 +3,8 @@ String regex = '^[0-9]*$';
 Pattern regexPattern = Pattern.compile(regex);
 Matcher regexMatcher = regexPattern.matcher(message);
 System.debug(System.LoggingLevel.INFO, regexMatcher.matches());
+
+OU 
+
+Boolean result = Pattern.matches(regex, message);
+System.debug(result);
